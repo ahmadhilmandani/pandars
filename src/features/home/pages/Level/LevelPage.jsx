@@ -60,7 +60,7 @@ function LevelPage() {
             {level.items.map((item, i) => (
               <li
                 key={item.label}
-                className="flex items-center justify-center gap-3 md:justify-start"
+                className="flex items-center gap-3 md:justify-start"
               >
                 <span
                   className={`grid size-7 shrink-0 place-items-center rounded-full text-xs font-bold ${level.bgColor} ${level.textColor}`}
@@ -92,7 +92,7 @@ function LevelPage() {
           </h2>
         </div>
 
-        <div className="mt-16 flex gap-5 flex-wrap">
+        <div className="mt-16 flex gap-5 flex-wrap justify-center lg:justify-start ">
           {cards.map((item) => (
             <ApdCard
               key={item.title}
