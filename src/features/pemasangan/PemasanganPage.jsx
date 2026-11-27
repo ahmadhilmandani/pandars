@@ -1,4 +1,4 @@
-import VideoGuidePage from './PemasanganPage'
+import VideoGuidePage from "../../components/VideoGuidePage";
 
 export default function PemasanganPage() {
   return (
@@ -9,7 +9,7 @@ export default function PemasanganPage() {
       videoId="5d9Kq7SLI0Q"
       videoTitle="Video panduan pemasangan APD"
       prev={{ to: '/level-penggunaan/3', label: 'Level Penggunaan' }}
-      next={{ to: '/counter-3', label: 'Pelepasan APD' }}
+      next={{ to: '/pelepasan-apd', label: 'Pelepasan APD' }}
     />
   )
 }

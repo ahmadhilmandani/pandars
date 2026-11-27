@@ -1,4 +1,5 @@
-import VideoGuidePage from '../components/VideoGuidePage'
+import VideoGuidePage from "../../components/VideoGuidePage";
+
 
 export default function PelepasanPage() {
   return (
@@ -8,7 +9,7 @@ export default function PelepasanPage() {
       description="Tonton video berikut untuk mengetahui urutan dan cara pelepasan APD yang benar agar terhindar dari kontaminasi."
       videoId="x64Yq3SdnCk"
       videoTitle="Video panduan pelepasan APD"
-      prev={{ to: '/counter-2', label: 'Pemasangan APD' }}
+      prev={{ to: '/pemasangan-apd', label: 'Pemasangan APD' }}
     />
   )
 }

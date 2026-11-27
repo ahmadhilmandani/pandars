@@ -99,8 +99,8 @@ function MainLayout() {
           <nav className="flex flex-wrap items-center gap-1">
             <NavLink to="/" end className={navLinkClass}>Home</NavLink>
             <LevelDropdown />
-            <NavLink to="/counter-2" className={navLinkClass}>Pemasangan</NavLink>
-            <NavLink to="/counter-3" className={navLinkClass}>Pelepasan</NavLink>
+            <NavLink to="/pemasangan-apd" className={navLinkClass}>Pemasangan</NavLink>
+            <NavLink to="/pelepasan-apd" className={navLinkClass}>Pelepasan</NavLink>
           </nav>
         </div>
       </header>
