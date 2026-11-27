@@ -14,7 +14,7 @@ export default function ApdUrgencyCard({
           </h3>
         </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" width="80%" viewBox="0 0 250 6" fill="none" class="services-card__line-svg"><path d="M2.0019 3.05432C84.0122 2.70675 166.022 2.34756 248.04 2C244.505 2.66037 240.969 3.32077 237.434 3.98115" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="80%" viewBox="0 0 250 6" fill="none" className="services-card__line-svg"><path d="M2.0019 3.05432C84.0122 2.70675 166.022 2.34756 248.04 2C244.505 2.66037 240.969 3.32077 237.434 3.98115" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"></path></svg>
 
         <p className="text-left font-sans text-sm antialiased font-normal leading-normal mt-4 text-white">
           {paragraph}
