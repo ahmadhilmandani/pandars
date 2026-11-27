@@ -132,7 +132,7 @@ function LevelPage() {
           </Link>
         ) : (
           <Link
-            to="/counter-2"
+            to="/pemasangan-apd"
             className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary-700 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-primary-600 sm:w-auto"
           >
             Lanjut ke Pemasangan
