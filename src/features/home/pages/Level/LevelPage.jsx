@@ -27,7 +27,7 @@ function LevelPage() {
     <div className="space-y-20 sm:space-y-24">
       {/* Hero */}
       <section className="mx-auto max-w-5xl space-y-5 text-center">
-        <span className="inline-flex rounded-full bg-primary-50 px-3 py-1 text-xs font-semibold text-primary-800">
+        <span className="uppercase tracking-wider inline-flex rounded-full bg-primary-100 px-4 py-1 text-xs font-semibold text-primary-900">
           LEVEL PENGGUNAAN APD
         </span>
         <h1 className="text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl md:text-5xl">
@@ -84,7 +84,7 @@ function LevelPage() {
       {/* Kartu item */}
       <section className="space-y-8">
         <div className="mx-auto max-w-2xl space-y-3 text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-primary-900">
+          <span className="uppercase tracking-wider inline-flex rounded-full bg-primary-100 px-4 py-1 text-xs font-semibold text-primary-900">
             Item yang Digunakan
           </span>
           <h2 className="mt-6 text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl">
@@ -92,7 +92,7 @@ function LevelPage() {
           </h2>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 justify-items-center gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="mt-16 flex gap-5 flex-wrap">
           {cards.map((item) => (
             <ApdCard
               key={item.title}

@@ -22,8 +22,6 @@ export const apdItems = [
   { title: 'Masker Reguler', bgColor: 'bg-starfruit-400', paragraph: 'Masker medis untuk membantu mengurangi penyebaran droplet.', img: regulerMasker },
   { title: 'Sarung Tangan', bgColor: 'bg-periwinkle-700', paragraph: 'Melindungi tangan dari kontak langsung dengan darah, cairan tubuh, dan kontaminan.', img: sarungTangan },
   { title: 'Sepatu Booth', bgColor: 'bg-starfruit-400', paragraph: 'Alas kaki pelindung untuk membantu melindungi kaki dari paparan kontaminan.', img: sepatuBooth },
-  // Item baru (belum ada stiker -> img null, kartu tetap tampil tanpa gambar)
-  { title: 'Baju Kerja', bgColor: 'bg-coral-600', paragraph: 'Pakaian kerja standar petugas sebagai lapisan dasar perlindungan.', img: null },
 ]
 
 // `ref` = title di apdItems, `label` = nama yang tampil di kartu
@@ -40,7 +38,6 @@ export const apdLevels = [
     items: [
       { ref: 'Masker Reguler', label: 'Masker Bedah 3-Ply' },
       { ref: 'Sarung Tangan', label: 'Sarung Tangan Karet Sekali Pakai' },
-      { ref: 'Baju Kerja', label: 'Baju Kerja' },
     ],
   },
   {

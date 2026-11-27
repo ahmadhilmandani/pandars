@@ -13,7 +13,7 @@ export default function VideoGuidePage({
     <div className="space-y-12 sm:space-y-16">
       {/* Hero */}
       <section className="mx-auto max-w-5xl space-y-5 text-center">
-        <span className="inline-flex rounded-full bg-primary-50 px-3 py-1 text-xs font-semibold text-primary-800">
+        <span className="uppercase tracking-wider inline-flex rounded-full bg-primary-100 px-4 py-1 text-xs font-semibold text-primary-900">
           {badge}
         </span>
 

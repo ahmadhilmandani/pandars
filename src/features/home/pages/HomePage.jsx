@@ -34,7 +34,7 @@ function HomePage() {
 
       {/* Hero Section */}
       <section className="mx-auto max-w-5xl space-y-5 text-center">
-        <span className="inline-flex rounded-full bg-primary-50 px-3 py-1 text-xs font-semibold text-primary-800">
+        <span className="uppercase tracking-wider inline-flex rounded-full bg-primary-100 px-4 py-1 text-xs font-semibold text-primary-900">
           PANDA RS
         </span>
 
@@ -53,7 +53,7 @@ function HomePage() {
 
       <section className="space-y-8">
         <div className="mx-auto max-w-2xl space-y-3 text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-primary-900">
+          <span className="uppercase tracking-wider inline-flex rounded-full bg-primary-100 px-4 py-1 text-xs font-semibold text-primary-900">
             Mengenal Perlengkapan
           </span>
 
@@ -84,7 +84,7 @@ function HomePage() {
 
       <section className="relative overflow-hidden rounded-3xl bg-taupe-300 px-5 py-12  sm:px-10 sm:py-16">
         <div className="relative z-10 mx-auto max-w-3xl space-y-5 text-center">
-          <span className="inline-flex rounded-full bg-white px-3 py-1 text-xs font-semibold text-taupe-800">
+          <span className="uppercase tracking-wider inline-flex rounded-full bg-primary-100 px-4 py-1 text-xs font-semibold text-primary-900">
             PENTING UNTUK DIKETAHUI
           </span>
 
